@@ -128,4 +128,3 @@ Licensed under the MIT License, Copyright © 2022
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
->>>>>>> 640a8a7 (Merge pull request #6 from khattaksd/main)
