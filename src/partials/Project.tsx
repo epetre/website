@@ -1,17 +1,15 @@
 import type { ReactNode } from 'react';
 
-import type { IHighlightProps } from './Highlight';
-
 type IProjectProps = {
   img: {
     src: string;
     alt: string;
   };
   name: string;
-  description: string;
+  description: ReactNode;
   link: string;
   category: ReactNode;
-  highlights: IHighlightProps[];
+  highlights: ReactNode;
 };
 
 const Project = (props: IProjectProps) => (

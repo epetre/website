@@ -1,10 +1,7 @@
-import {
-  ColorTags,
-  GradientText,
-  Project,
-  Section,
-  Tags,
-} from 'astro-boilerplate-components';
+import { GradientText, Section } from 'astro-boilerplate-components';
+
+import { Project } from './Project';
+import { ColorTags, Tags } from './Tags';
 
 const ProjectList = () => (
   <Section
@@ -16,51 +13,145 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="We3"
+        description={
+          <>
+            This{' '}
+            <a
+              className="text-cyan-400 hover:underline"
+              href="https://www.we3app.com/"
+              target="_blank"
+            >
+              friendship app
+            </a>{' '}
+            {}
+            is a new way for adults to make genuine new friendships. We3 uses
+            social science and Artificial Intelligence to match you with the
+            most compatible people around you in groups of three. It was
+            designed make it easy and fun to make genuine new friendships while
+            removing the awkwardness around this typically hard process.
+          </>
+        }
+        link="/posts/we3"
+        img={{ src: '/assets/images/we3_2.png', alt: 'Project Fire' }}
+        category={
+          <>
+            <Tags color={ColorTags.ruby}>Ruby</Tags>
+            <Tags color={ColorTags.postgres}>Postgres</Tags>
+            <Tags color={ColorTags.angularjs}>Angular.js</Tags>
+            <Tags color={ColorTags.rails}>Rails</Tags>
+            <Tags color={ColorTags.css}>Ionic</Tags>
+            <Tags color={ColorTags.grapeapi}>Grape API</Tags>
+          </>
+        }
+        highlights={
+          <>
+            <div className="max-w mt-4 flex flex-col text-gray-400">
+              <div>
+                <span className="mr-1">📈</span>
+                <span>
+                  More than <b>1 Million</b> accounts created
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">⭐</span>
+                <span>
+                  Over <b>10,000</b> 5-star reviews
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">❤️</span>
+                <span>
+                  Changed the lives of <b>thousands</b>
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">✨</span>
+                <span>Available on all platforms... yup, even web</span>
+              </div>
+
+              <div>
+                <span className="mr-1">🧪</span>
+                <span>Uses and pushes modern science around friendship</span>
+              </div>
+            </div>
+          </>
+        }
+      />
+      <Project
+        name="Insight"
+        description={
+          <>
+            Dashboarding web app that helps development teams track and improve
+            their development process. Insight integrates directly with{' '}
+            <a
+              className="text-cyan-400 hover:underline"
+              href="https://www.pivotaltracker.com/"
+              target="_blank"
+            >
+              Pivotal Tracker
+            </a>
+            ,{' '}
+            <a
+              className="text-cyan-400 hover:underline"
+              href="https://trello.com/"
+              target="_blank"
+            >
+              Trello
+            </a>{' '}
+            and{' '}
+            <a
+              className="text-cyan-400 hover:underline"
+              href="https://github.com/"
+              target="_blank"
+            >
+              Github
+            </a>{' '}
+            to turn project data data into a powerful and fully customizeable
+            dashboards for developers and managers.
+          </>
+        }
+        link="/posts/insight"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/insight_logo_with_name_white.png',
           alt: 'Project Web Design',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.ruby}>Ruby</Tags>
+            <Tags color={ColorTags.javascript}>Javascript</Tags>
+            <Tags color={ColorTags.postgres}>Postgres</Tags>
+            <Tags color={ColorTags.rails}>Rails</Tags>
+            <Tags color={ColorTags.css}>CSS</Tags>
+            <Tags color={ColorTags.d3js}>D3.js</Tags>
+            <Tags color={ColorTags.gridster}>Gridster</Tags>
+            <Tags color={ColorTags.coffeescript}>CoffeeScript</Tags>
+            <Tags color={ColorTags.batmanjs}>Batman.js</Tags>
+            ...
           </>
         }
-      />
-      <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
-        category={
+        highlights={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <div className="max-w mt-4 flex flex-col text-gray-400">
+              <div>
+                <span className="mr-1">💳</span>
+                <span>Hundreds of paying customers</span>
+              </div>
+              <div>
+                <span className="mr-1">🖥️</span>
+                <span>
+                  Source of truth of over <b>200</b> teams around the world.
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">✨</span>
+                <span>100% browser based (no app required)</span>
+              </div>
+              <div>
+                <span className="mr-1">⚙️</span>
+                <span>Stylish and highly customizeable dashboards</span>
+              </div>
+            </div>
           </>
         }
       />
