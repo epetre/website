@@ -9,10 +9,11 @@ WORKDIR /app/
 #package and package-lock.json both go in
 COPY package.json /app/
 RUN npm install
+RUN npm run build
 
 COPY . /app/
 
 EXPOSE 3000
 
 # start an application (starting our Astro app)
-CMD npm run dev -- --host 0.0.0.0 & tail -f /dev/null
+#CMD npm run dev -- --host 0.0.0.0 & tail -f /dev/null
