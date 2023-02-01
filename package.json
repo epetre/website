@@ -28,7 +28,7 @@
     "astro-eslint-parser": "^0.2.2",
     "astro-imagetools": "^0.6.10",
     "astro-robots-txt": "^0.3.2",
-    "eslint": "^8.17.0",
+    "eslint": "^8.33.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",

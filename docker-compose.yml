@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  website: 
+    build: ./
+    ports:
+      - 7001:3000
+    command: npm start -- --host 0.0.0.0 & tail -f /dev/null
