@@ -11,13 +11,13 @@ RUN npm install
 
 COPY . .
 
-#RUN npm run build --trace
+RUN npm run build --verbose
 
 # Stage 2 - Running image
-#FROM 'nginx:latest'
+FROM 'nginx:latest'
 
-#COPY --from=node /app/dist /usr/share/nginx/html
+COPY --from=node /app/dist /usr/share/nginx/html
 
-#EXPOSE 80 443
-#CMD [ "nginx", "-g", "daemon off;" ]
+EXPOSE 80 443
+CMD [ "nginx", "-g", "daemon off;" ]
 
