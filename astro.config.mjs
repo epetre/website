@@ -28,6 +28,6 @@ export default defineConfig({
     tailwind({}),
     sitemap(),
     robotsTxt(),
-    astroImageTools,
+    //astroImageTools,
   ],
 });
