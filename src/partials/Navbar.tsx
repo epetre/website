@@ -17,9 +17,15 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="/posts">Blogs</NavMenuItem>
-        <NavMenuItem href="/">GitHub</NavMenuItem>
-        <NavMenuItem href="/">Twitter</NavMenuItem>
+        {/* <NavMenuItem href="/posts">Posts (soon)</NavMenuItem> */}
+        <NavMenuItem href="/">Posts (soon)</NavMenuItem>
+        <NavMenuItem href="https://github.com/epetre">GitHub</NavMenuItem>
+        <NavMenuItem href="https://twitter.com/Emanuel58020058">
+          Twitter
+        </NavMenuItem>
+        <NavMenuItem href="https://linkedin.com/in/emanuelpetre">
+          LinkedIn
+        </NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>

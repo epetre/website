@@ -18,10 +18,12 @@ const Hero = () => (
       }
       description={
         <>
-          I'm a software engineer, I spent the last 15 years building Apps.
-          Founded 2 companies and built them from the ground up. Solved many
-          interesting problems along the way. I'm also a dad of 4 😊 and a
-          fitness and nutrition geek 💪. I'm passionate about incremental gains.
+          Technically, I'm a software engineer, but I view myself as just a
+          builder and a craftsman. I spent the last 15 years building Apps and
+          enjoyed the journey. Along the way, I founded 2 companies and built
+          them from the ground up. I'm also a dad of 4 awesome kids 😊 and a
+          fitness and nutrition geek 💪. I'm passionate about incremental gains
+          and have a strong growth mindset.
         </>
       }
       avatar={
@@ -41,7 +43,7 @@ const Hero = () => (
           <a href="https://github.com/epetre">
             <HeroSocial src="/assets/images/github.png" alt="Github icon" />
           </a>
-          <a href="/">
+          <a href="https://linkedin.com/in/emanuelpetre">
             <HeroSocial src="/assets/images/linkedin.png" alt="LinkedIn icon" />
           </a>
         </>
