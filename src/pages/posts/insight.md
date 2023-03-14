@@ -1,10 +1,11 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: 3rd Lorem ipsum dolor sit
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-02-03T00:00:00Z
-imgSrc: '/assets/images/image-post4.jpeg'
-imgAlt: 'Image post 4'
+title: Building Insight
+description: A summary of my experience with Insight with a focus on the technical decisions and challenges.
+pubDate: 2023-03-13T00:00:00Z
+imgSrc: '/assets/images/insight-dashboard-monitor.png'
+imgAlt: 'Image of an Insight dashboard'
 ---
 
-Full typography example at [this page](./sixth-post).
+## Coming soon...
+Currently working on this post. It will contain some of our decisions, the thought process around them and the technical challenges we faced as we built a dashboarding tool for development teams.

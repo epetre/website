@@ -17,8 +17,7 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        {/* <NavMenuItem href="/posts">Posts (soon)</NavMenuItem> */}
-        <NavMenuItem href="/">Posts (soon)</NavMenuItem>
+        <NavMenuItem href="/posts">Posts</NavMenuItem>
         <NavMenuItem href="https://github.com/epetre">GitHub</NavMenuItem>
         <NavMenuItem href="https://twitter.com/Emanuel58020058">
           Twitter
