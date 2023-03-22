@@ -1,5 +1,6 @@
 import {
   Logo,
+  GradientText,
   NavbarTwoColumns,
   NavMenu,
   NavMenuItem,
@@ -12,11 +13,16 @@ const Navbar = () => (
       <a href="/">
         <Logo
           icon={<img className="w-12" src="/assets/images/logo.png" />}
-          name="emanuelpetre.com"
+          name="emanuelpetre.dev"
         />
       </a>
 
       <NavMenu>
+        <NavMenuItem href="https://calendly.com/meet_manu">
+          <GradientText>
+            Hire me!
+          </GradientText>
+        </NavMenuItem>
         <NavMenuItem href="/posts">Posts</NavMenuItem>
         <NavMenuItem href="https://github.com/epetre">GitHub</NavMenuItem>
         <NavMenuItem href="https://twitter.com/Emanuel58020058">

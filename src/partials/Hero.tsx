@@ -23,7 +23,7 @@ const Hero = () => (
           enjoyed the journey. Along the way, I founded 2 companies and built
           them from the ground up. I'm also a dad of 4 awesome kids 😊 and a
           fitness and nutrition geek 💪. I'm passionate about incremental gains
-          and have a strong growth mindset.
+          and have a strong growth mindset. <a href="https://calendly.com/meet_manu"><GradientText>Hire me!</GradientText> </a>
         </>
       }
       avatar={
@@ -36,10 +36,12 @@ const Hero = () => (
       }
       socialButtons={
         <>
+          <a href="https://calendly.com/meet_manu">
+            <HeroSocial src="/assets/images/calendar.png" alt="Calendar icon" />
+          </a>
           <a href="https://twitter.com/Emanuel58020058">
             <HeroSocial src="/assets/images/twitter.png" alt="Twitter icon" />
           </a>
-
           <a href="https://github.com/epetre">
             <HeroSocial src="/assets/images/github.png" alt="Github icon" />
           </a>

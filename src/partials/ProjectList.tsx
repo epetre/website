@@ -26,10 +26,11 @@ const ProjectList = () => (
             </a>{' '}
             {}
             is a new way for adults to make genuine new friendships. We3 uses
-            social science and Artificial Intelligence to match you with the
+            social science and artificial intelligence to match you with the
             most compatible people around you in groups of three. It was
-            designed make it easy and fun to make genuine new friendships while
-            removing the awkwardness around this typically hard process.
+            designed to make it easy and fun to make genuine new friendships while
+            removing the awkwardness around this typically tedious process.
+            <a href="/posts/we3" className="text-cyan-400 hover:underline" target="_blank"> Read more</a>
           </>
         }
         link="/posts/we3"
@@ -82,8 +83,8 @@ const ProjectList = () => (
         name="Insight"
         description={
           <>
-            Dashboarding web app that helps development teams track and improve
-            their development process. Insight integrates directly with{' '}
+            Insight is a web app that helps development teams track and improve
+            their development process in an awesome dashboard. Insight integrates directly with{' '}
             <a
               className="text-cyan-400 hover:underline"
               href="https://www.pivotaltracker.com/"
@@ -107,8 +108,10 @@ const ProjectList = () => (
             >
               Github
             </a>{' '}
-            to turn project data data into a powerful and fully customizeable
-            dashboards for developers and managers.
+            to turn sleeping project data into a powerful and fully customizeable
+            dashboards for developers and managers. Those dashboards can be shared, with clients or simply displayed on a big screen for the whole team to see.
+            Insight is now shut down.
+            <a href="/posts/insight" className="text-cyan-400 hover:underline" target="_blank"> Read more</a>
           </>
         }
         link="/posts/insight"
