@@ -126,6 +126,7 @@ This README.md was linted with
 
 Licensed under the MIT License, Copyright © 2022
 
+
 ---
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
