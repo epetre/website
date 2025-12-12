@@ -19,7 +19,7 @@ const ProjectList = () => (
             This{' '}
             <a
               className="text-cyan-400 hover:underline"
-              href="https://www.we3app.com/"
+              href=""
               target="_blank"
             >
               trading bot
@@ -33,16 +33,12 @@ const ProjectList = () => (
             <a href="/posts/brobot" className="text-cyan-400 hover:underline" target="_blank"> Read more</a>
           </>
         }
-        link="/posts/we3"
-        img={{ src: '/assets/images/we3_2.png', alt: 'Project Fire' }}
+        link="/posts/brobot"
+        img={{ src: '/assets/images/brobot-logo.png', alt: 'Project Fire' }}
         category={
           <>
             <Tags color={ColorTags.ruby}>Ruby</Tags>
-            <Tags color={ColorTags.postgres}>Postgres</Tags>
-            <Tags color={ColorTags.angularjs}>Angular.js</Tags>
-            <Tags color={ColorTags.rails}>Rails</Tags>
-            <Tags color={ColorTags.css}>Ionic</Tags>
-            <Tags color={ColorTags.grapeapi}>Grape API</Tags>
+            <Tags color={ColorTags.css}>HTML/Javascript</Tags>
           </>
         }
         highlights={
