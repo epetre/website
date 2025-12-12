@@ -13,6 +13,74 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+        name="Brobot"
+        description={
+          <>
+            This{' '}
+            <a
+              className="text-cyan-400 hover:underline"
+              href="https://www.we3app.com/"
+              target="_blank"
+            >
+              trading bot
+            </a>{' '}
+            {}
+            is trading bot that is capable of identifying opportunities in the
+            Toronto stock exchange. It is capable of tracking stocks and 
+            reacting in real time to the market moving on pre-specified stocks.
+            It helps to identify opportunities based on a variety of strategies 
+            configured by the user trader.
+            <a href="/posts/brobot" className="text-cyan-400 hover:underline" target="_blank"> Read more</a>
+          </>
+        }
+        link="/posts/we3"
+        img={{ src: '/assets/images/we3_2.png', alt: 'Project Fire' }}
+        category={
+          <>
+            <Tags color={ColorTags.ruby}>Ruby</Tags>
+            <Tags color={ColorTags.postgres}>Postgres</Tags>
+            <Tags color={ColorTags.angularjs}>Angular.js</Tags>
+            <Tags color={ColorTags.rails}>Rails</Tags>
+            <Tags color={ColorTags.css}>Ionic</Tags>
+            <Tags color={ColorTags.grapeapi}>Grape API</Tags>
+          </>
+        }
+        highlights={
+          <>
+            <div className="max-w mt-4 flex flex-col text-gray-400">
+              <div>
+                <span className="mr-1">📈</span>
+                <span>
+                  More than <b>1 Million</b> accounts created
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">⭐</span>
+                <span>
+                  Over <b>10,000</b> 5-star reviews
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">❤️</span>
+                <span>
+                  Changed the lives of <b>thousands</b>
+                </span>
+              </div>
+              <div>
+                <span className="mr-1">✨</span>
+                <span>Available on all platforms... yup, even web</span>
+              </div>
+
+              <div>
+                <span className="mr-1">🧪</span>
+                <span>Uses and pushes modern science around friendship</span>
+              </div>
+            </div>
+          </>
+        }
+
+      />
+      <Project
         name="We3"
         description={
           <>
